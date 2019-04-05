@@ -26,7 +26,7 @@ var _ = Describe("Hijacking", func() {
 		hijacked = nil
 		workingDirectory = ""
 		user = "root"
-		path = "bash"
+		path = "/bin/sh"
 		args = nil
 	})
 
